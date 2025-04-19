@@ -1,3 +1,6 @@
+import "./card-list.js";
+import "./card-item.js";
+
 const notesData = [
   {
     id: "notes-jT-jjsyz61J8XKiI",
@@ -107,3 +110,5 @@ const notesData = [
 ];
 
 console.log(notesData);
+const cardList = document.querySelector("card-list");
+cardList.setCardList(notesData);
